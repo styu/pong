@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1519C3A43F005D9C30 /* Foundation.framework */; };
+		A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */; };
+		A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1919C3A43F005D9C30 /* UIKit.framework */; };
+		A252FB2019C3A43F005D9C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A252FB1E19C3A43F005D9C30 /* InfoPlist.strings */; };
+		A252FB2219C3A43F005D9C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A252FB2119C3A43F005D9C30 /* main.m */; };
+		A252FB2619C3A43F005D9C30 /* PongAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A252FB2519C3A43F005D9C30 /* PongAppDelegate.m */; };
+		A252FB2819C3A43F005D9C30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A252FB2719C3A43F005D9C30 /* Images.xcassets */; };
+		A252FB2F19C3A43F005D9C30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB2E19C3A43F005D9C30 /* XCTest.framework */; };
+		A252FB3019C3A43F005D9C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1519C3A43F005D9C30 /* Foundation.framework */; };
+		A252FB3119C3A43F005D9C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1919C3A43F005D9C30 /* UIKit.framework */; };
+		A252FB3919C3A43F005D9C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A252FB3719C3A43F005D9C30 /* InfoPlist.strings */; };
+		A252FB3B19C3A43F005D9C30 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A252FB3A19C3A43F005D9C30 /* PongTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A252FB3219C3A43F005D9C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A252FB0A19C3A43F005D9C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A252FB1119C3A43F005D9C30;
+			remoteInfo = Pong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A252FB1219C3A43F005D9C30 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A252FB1519C3A43F005D9C30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A252FB1919C3A43F005D9C30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A252FB1D19C3A43F005D9C30 /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
+		A252FB1F19C3A43F005D9C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A252FB2119C3A43F005D9C30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A252FB2319C3A43F005D9C30 /* Pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pong-Prefix.pch"; sourceTree = "<group>"; };
+		A252FB2419C3A43F005D9C30 /* PongAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PongAppDelegate.h; sourceTree = "<group>"; };
+		A252FB2519C3A43F005D9C30 /* PongAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongAppDelegate.m; sourceTree = "<group>"; };
+		A252FB2719C3A43F005D9C30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A252FB2D19C3A43F005D9C30 /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A252FB2E19C3A43F005D9C30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A252FB3619C3A43F005D9C30 /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
+		A252FB3819C3A43F005D9C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A252FB3A19C3A43F005D9C30 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A252FB0F19C3A43F005D9C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */,
+				A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */,
+				A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A252FB2A19C3A43F005D9C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A252FB2F19C3A43F005D9C30 /* XCTest.framework in Frameworks */,
+				A252FB3119C3A43F005D9C30 /* UIKit.framework in Frameworks */,
+				A252FB3019C3A43F005D9C30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A252FB0919C3A43F005D9C30 = {
+			isa = PBXGroup;
+			children = (
+				A252FB1B19C3A43F005D9C30 /* Pong */,
+				A252FB3419C3A43F005D9C30 /* PongTests */,
+				A252FB1419C3A43F005D9C30 /* Frameworks */,
+				A252FB1319C3A43F005D9C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A252FB1319C3A43F005D9C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A252FB1219C3A43F005D9C30 /* Pong.app */,
+				A252FB2D19C3A43F005D9C30 /* PongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A252FB1419C3A43F005D9C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A252FB1519C3A43F005D9C30 /* Foundation.framework */,
+				A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */,
+				A252FB1919C3A43F005D9C30 /* UIKit.framework */,
+				A252FB2E19C3A43F005D9C30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A252FB1B19C3A43F005D9C30 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				A252FB2419C3A43F005D9C30 /* PongAppDelegate.h */,
+				A252FB2519C3A43F005D9C30 /* PongAppDelegate.m */,
+				A252FB2719C3A43F005D9C30 /* Images.xcassets */,
+				A252FB1C19C3A43F005D9C30 /* Supporting Files */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		A252FB1C19C3A43F005D9C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A252FB1D19C3A43F005D9C30 /* Pong-Info.plist */,
+				A252FB1E19C3A43F005D9C30 /* InfoPlist.strings */,
+				A252FB2119C3A43F005D9C30 /* main.m */,
+				A252FB2319C3A43F005D9C30 /* Pong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A252FB3419C3A43F005D9C30 /* PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				A252FB3A19C3A43F005D9C30 /* PongTests.m */,
+				A252FB3519C3A43F005D9C30 /* Supporting Files */,
+			);
+			path = PongTests;
+			sourceTree = "<group>";
+		};
+		A252FB3519C3A43F005D9C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A252FB3619C3A43F005D9C30 /* PongTests-Info.plist */,
+				A252FB3719C3A43F005D9C30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A252FB1119C3A43F005D9C30 /* Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A252FB3E19C3A43F005D9C30 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildPhases = (
+				A252FB0E19C3A43F005D9C30 /* Sources */,
+				A252FB0F19C3A43F005D9C30 /* Frameworks */,
+				A252FB1019C3A43F005D9C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong;
+			productName = Pong;
+			productReference = A252FB1219C3A43F005D9C30 /* Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A252FB2C19C3A43F005D9C30 /* PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A252FB4119C3A43F005D9C30 /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildPhases = (
+				A252FB2919C3A43F005D9C30 /* Sources */,
+				A252FB2A19C3A43F005D9C30 /* Frameworks */,
+				A252FB2B19C3A43F005D9C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A252FB3319C3A43F005D9C30 /* PBXTargetDependency */,
+			);
+			name = PongTests;
+			productName = PongTests;
+			productReference = A252FB2D19C3A43F005D9C30 /* PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A252FB0A19C3A43F005D9C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pong;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stephanie Yu";
+				TargetAttributes = {
+					A252FB2C19C3A43F005D9C30 = {
+						TestTargetID = A252FB1119C3A43F005D9C30;
+					};
+				};
+			};
+			buildConfigurationList = A252FB0D19C3A43F005D9C30 /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A252FB0919C3A43F005D9C30;
+			productRefGroup = A252FB1319C3A43F005D9C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A252FB1119C3A43F005D9C30 /* Pong */,
+				A252FB2C19C3A43F005D9C30 /* PongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A252FB1019C3A43F005D9C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A252FB2019C3A43F005D9C30 /* InfoPlist.strings in Resources */,
+				A252FB2819C3A43F005D9C30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A252FB2B19C3A43F005D9C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A252FB3919C3A43F005D9C30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A252FB0E19C3A43F005D9C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A252FB2619C3A43F005D9C30 /* PongAppDelegate.m in Sources */,
+				A252FB2219C3A43F005D9C30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A252FB2919C3A43F005D9C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A252FB3B19C3A43F005D9C30 /* PongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A252FB3319C3A43F005D9C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A252FB1119C3A43F005D9C30 /* Pong */;
+			targetProxy = A252FB3219C3A43F005D9C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A252FB1E19C3A43F005D9C30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A252FB1F19C3A43F005D9C30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A252FB3719C3A43F005D9C30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A252FB3819C3A43F005D9C30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A252FB3C19C3A43F005D9C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A252FB3D19C3A43F005D9C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A252FB3F19C3A43F005D9C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A252FB4019C3A43F005D9C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A252FB4219C3A43F005D9C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A252FB4319C3A43F005D9C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A252FB0D19C3A43F005D9C30 /* Build configuration list for PBXProject "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A252FB3C19C3A43F005D9C30 /* Debug */,
+				A252FB3D19C3A43F005D9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A252FB3E19C3A43F005D9C30 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A252FB3F19C3A43F005D9C30 /* Debug */,
+				A252FB4019C3A43F005D9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A252FB4119C3A43F005D9C30 /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A252FB4219C3A43F005D9C30 /* Debug */,
+				A252FB4319C3A43F005D9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A252FB0A19C3A43F005D9C30 /* Project object */;
+}
