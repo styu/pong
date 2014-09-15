@@ -85,15 +85,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A252FB5419C69285005D9C30 /* SystemConfiguration.framework in Frameworks */,
-				A252FB5219C6927E005D9C30 /* Security.framework in Frameworks */,
-				A252FB5019C69277005D9C30 /* CFNetwork.framework in Frameworks */,
-				A252FB4E19C6926F005D9C30 /* libc++.dylib in Frameworks */,
-				A252FB4C19C69261005D9C30 /* libicucore.dylib in Frameworks */,
+				572A60B619C6973300D7DFDC /* Firebase.framework in Frameworks */,
+				572A60B219C6946A00D7DFDC /* SystemConfiguration.framework in Frameworks */,
+				572A60B019C6946300D7DFDC /* Security.framework in Frameworks */,
+				572A60AE19C6945B00D7DFDC /* CFNetwork.framework in Frameworks */,
+				572A60AC19C6945400D7DFDC /* libc++.dylib in Frameworks */,
+				572A60AA19C6944A00D7DFDC /* libicucore.dylib in Frameworks */,
 				A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */,
 				A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */,
 				A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */,
-				A252FB4A19C691E5005D9C30 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
