@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		572A60A619C68B6400D7DFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572A60A519C68B6400D7DFDC /* Main.storyboard */; };
 		A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1519C3A43F005D9C30 /* Foundation.framework */; };
 		A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */; };
 		A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1919C3A43F005D9C30 /* UIKit.framework */; };
@@ -20,6 +19,7 @@
 		A252FB3119C3A43F005D9C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1919C3A43F005D9C30 /* UIKit.framework */; };
 		A252FB3919C3A43F005D9C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A252FB3719C3A43F005D9C30 /* InfoPlist.strings */; };
 		A252FB3B19C3A43F005D9C30 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A252FB3A19C3A43F005D9C30 /* PongTests.m */; };
+		A252FB4819C6904B005D9C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A252FB4719C6904B005D9C30 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		572A60A519C68B6400D7DFDC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A252FB1219C3A43F005D9C30 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A252FB1519C3A43F005D9C30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,6 +49,7 @@
 		A252FB3619C3A43F005D9C30 /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
 		A252FB3819C3A43F005D9C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A252FB3A19C3A43F005D9C30 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+		A252FB4719C6904B005D9C30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		A252FB0919C3A43F005D9C30 = {
 			isa = PBXGroup;
 			children = (
-				572A60A519C68B6400D7DFDC /* Main.storyboard */,
 				A252FB1B19C3A43F005D9C30 /* Pong */,
 				A252FB3419C3A43F005D9C30 /* PongTests */,
 				A252FB1419C3A43F005D9C30 /* Frameworks */,
@@ -114,6 +113,7 @@
 				A252FB2519C3A43F005D9C30 /* PongAppDelegate.m */,
 				A252FB2719C3A43F005D9C30 /* Images.xcassets */,
 				A252FB1C19C3A43F005D9C30 /* Supporting Files */,
+				A252FB4719C6904B005D9C30 /* Main.storyboard */,
 			);
 			path = Pong;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572A60A619C68B6400D7DFDC /* Main.storyboard in Resources */,
+				A252FB4819C6904B005D9C30 /* Main.storyboard in Resources */,
 				A252FB2019C3A43F005D9C30 /* InfoPlist.strings in Resources */,
 				A252FB2819C3A43F005D9C30 /* Images.xcassets in Resources */,
 			);
