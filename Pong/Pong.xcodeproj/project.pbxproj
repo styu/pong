@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572A60AA19C6944A00D7DFDC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A60A919C6944A00D7DFDC /* libicucore.dylib */; };
+		572A60AC19C6945400D7DFDC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A60AB19C6945400D7DFDC /* libc++.dylib */; };
+		572A60AE19C6945B00D7DFDC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A60AD19C6945B00D7DFDC /* CFNetwork.framework */; };
+		572A60B019C6946300D7DFDC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A60AF19C6946300D7DFDC /* Security.framework */; };
+		572A60B219C6946A00D7DFDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A60B119C6946A00D7DFDC /* SystemConfiguration.framework */; };
+		572A60B619C6973300D7DFDC /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A60B519C6973300D7DFDC /* Firebase.framework */; };
+		572A60BC19C69CAE00D7DFDC /* PongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572A60BB19C69CAE00D7DFDC /* PongViewController.m */; };
 		A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1519C3A43F005D9C30 /* Foundation.framework */; };
 		A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */; };
 		A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB1919C3A43F005D9C30 /* UIKit.framework */; };
@@ -33,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		572A60A919C6944A00D7DFDC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		572A60AB19C6945400D7DFDC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		572A60AD19C6945B00D7DFDC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		572A60AF19C6946300D7DFDC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		572A60B119C6946A00D7DFDC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		572A60B319C6970000D7DFDC /* Firebase 2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Firebase 2.framework"; path = "../../../Downloads/Firebase 2.framework"; sourceTree = "<group>"; };
+		572A60B519C6973300D7DFDC /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../../Downloads/Firebase.framework; sourceTree = "<group>"; };
+		572A60BA19C69CAE00D7DFDC /* PongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PongViewController.h; sourceTree = SOURCE_ROOT; };
+		572A60BB19C69CAE00D7DFDC /* PongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PongViewController.m; sourceTree = SOURCE_ROOT; };
 		A252FB1219C3A43F005D9C30 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A252FB1519C3A43F005D9C30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572A60B619C6973300D7DFDC /* Firebase.framework in Frameworks */,
+				572A60B219C6946A00D7DFDC /* SystemConfiguration.framework in Frameworks */,
+				572A60B019C6946300D7DFDC /* Security.framework in Frameworks */,
+				572A60AE19C6945B00D7DFDC /* CFNetwork.framework in Frameworks */,
+				572A60AC19C6945400D7DFDC /* libc++.dylib in Frameworks */,
+				572A60AA19C6944A00D7DFDC /* libicucore.dylib in Frameworks */,
 				A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */,
 				A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */,
 				A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */,
@@ -98,6 +120,13 @@
 		A252FB1419C3A43F005D9C30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				572A60B519C6973300D7DFDC /* Firebase.framework */,
+				572A60B319C6970000D7DFDC /* Firebase 2.framework */,
+				572A60B119C6946A00D7DFDC /* SystemConfiguration.framework */,
+				572A60AF19C6946300D7DFDC /* Security.framework */,
+				572A60AD19C6945B00D7DFDC /* CFNetwork.framework */,
+				572A60AB19C6945400D7DFDC /* libc++.dylib */,
+				572A60A919C6944A00D7DFDC /* libicucore.dylib */,
 				A252FB1519C3A43F005D9C30 /* Foundation.framework */,
 				A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */,
 				A252FB1919C3A43F005D9C30 /* UIKit.framework */,
@@ -109,6 +138,8 @@
 		A252FB1B19C3A43F005D9C30 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				572A60BA19C69CAE00D7DFDC /* PongViewController.h */,
+				572A60BB19C69CAE00D7DFDC /* PongViewController.m */,
 				A252FB2419C3A43F005D9C30 /* PongAppDelegate.h */,
 				A252FB2519C3A43F005D9C30 /* PongAppDelegate.m */,
 				A252FB2719C3A43F005D9C30 /* Images.xcassets */,
@@ -244,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572A60BC19C69CAE00D7DFDC /* PongViewController.m in Sources */,
 				A252FB2619C3A43F005D9C30 /* PongAppDelegate.m in Sources */,
 				A252FB2219C3A43F005D9C30 /* main.m in Sources */,
 			);
@@ -362,6 +394,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/victor/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
@@ -375,9 +412,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/victor/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

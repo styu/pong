@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface PongAppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
+@property int cows;
 
 @end

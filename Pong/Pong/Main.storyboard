@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pong View Controller-->
         <scene sceneID="f7P-dB-ByF">
             <objects>
-                <viewController id="TmN-W8-Utx" sceneMemberID="viewController">
+                <viewController id="TmN-W8-Utx" customClass="PongViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fjf-WJ-90w"/>
                         <viewControllerLayoutGuide type="bottom" id="cDA-ON-nvO"/>
@@ -24,14 +24,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMD-8U-umy">
-                                <rect key="frame" x="32" y="302" width="257" height="48"/>
+                                <rect key="frame" x="32" y="297" width="257" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91613464918013288" green="1" blue="0.92704501740594236" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="I'd like some more cows"/>
+                                <connections>
+                                    <action selector="cowPusher:" destination="TmN-W8-Utx" eventType="touchUpInside" id="spe-4Y-LoZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="cowPusher" destination="XMD-8U-umy" id="9xD-mB-sjn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ND6-UL-TZC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
