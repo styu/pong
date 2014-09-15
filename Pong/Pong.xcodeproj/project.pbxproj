@@ -27,6 +27,12 @@
 		A252FB3919C3A43F005D9C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A252FB3719C3A43F005D9C30 /* InfoPlist.strings */; };
 		A252FB3B19C3A43F005D9C30 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A252FB3A19C3A43F005D9C30 /* PongTests.m */; };
 		A252FB4819C6904B005D9C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A252FB4719C6904B005D9C30 /* Main.storyboard */; };
+		A252FB4A19C691E5005D9C30 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB4919C691E5005D9C30 /* Firebase.framework */; };
+		A252FB4C19C69261005D9C30 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB4B19C69261005D9C30 /* libicucore.dylib */; };
+		A252FB4E19C6926F005D9C30 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB4D19C6926F005D9C30 /* libc++.dylib */; };
+		A252FB5019C69277005D9C30 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB4F19C69277005D9C30 /* CFNetwork.framework */; };
+		A252FB5219C6927E005D9C30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB5119C6927E005D9C30 /* Security.framework */; };
+		A252FB5419C69285005D9C30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A252FB5319C69285005D9C30 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,12 @@
 		A252FB3819C3A43F005D9C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A252FB3A19C3A43F005D9C30 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
 		A252FB4719C6904B005D9C30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A252FB4919C691E5005D9C30 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../../../../Downloads/Firebase.framework; sourceTree = "<group>"; };
+		A252FB4B19C69261005D9C30 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		A252FB4D19C6926F005D9C30 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		A252FB4F19C69277005D9C30 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A252FB5119C6927E005D9C30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A252FB5319C69285005D9C30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +85,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572A60B619C6973300D7DFDC /* Firebase.framework in Frameworks */,
-				572A60B219C6946A00D7DFDC /* SystemConfiguration.framework in Frameworks */,
-				572A60B019C6946300D7DFDC /* Security.framework in Frameworks */,
-				572A60AE19C6945B00D7DFDC /* CFNetwork.framework in Frameworks */,
-				572A60AC19C6945400D7DFDC /* libc++.dylib in Frameworks */,
-				572A60AA19C6944A00D7DFDC /* libicucore.dylib in Frameworks */,
+				A252FB5419C69285005D9C30 /* SystemConfiguration.framework in Frameworks */,
+				A252FB5219C6927E005D9C30 /* Security.framework in Frameworks */,
+				A252FB5019C69277005D9C30 /* CFNetwork.framework in Frameworks */,
+				A252FB4E19C6926F005D9C30 /* libc++.dylib in Frameworks */,
+				A252FB4C19C69261005D9C30 /* libicucore.dylib in Frameworks */,
 				A252FB1819C3A43F005D9C30 /* CoreGraphics.framework in Frameworks */,
 				A252FB1A19C3A43F005D9C30 /* UIKit.framework in Frameworks */,
 				A252FB1619C3A43F005D9C30 /* Foundation.framework in Frameworks */,
+				A252FB4A19C691E5005D9C30 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,13 +132,12 @@
 		A252FB1419C3A43F005D9C30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				572A60B519C6973300D7DFDC /* Firebase.framework */,
-				572A60B319C6970000D7DFDC /* Firebase 2.framework */,
-				572A60B119C6946A00D7DFDC /* SystemConfiguration.framework */,
-				572A60AF19C6946300D7DFDC /* Security.framework */,
-				572A60AD19C6945B00D7DFDC /* CFNetwork.framework */,
-				572A60AB19C6945400D7DFDC /* libc++.dylib */,
-				572A60A919C6944A00D7DFDC /* libicucore.dylib */,
+				A252FB5319C69285005D9C30 /* SystemConfiguration.framework */,
+				A252FB5119C6927E005D9C30 /* Security.framework */,
+				A252FB4F19C69277005D9C30 /* CFNetwork.framework */,
+				A252FB4D19C6926F005D9C30 /* libc++.dylib */,
+				A252FB4B19C69261005D9C30 /* libicucore.dylib */,
+				A252FB4919C691E5005D9C30 /* Firebase.framework */,
 				A252FB1519C3A43F005D9C30 /* Foundation.framework */,
 				A252FB1719C3A43F005D9C30 /* CoreGraphics.framework */,
 				A252FB1919C3A43F005D9C30 /* UIKit.framework */,
@@ -396,8 +407,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					/Users/victor/Downloads,
+					/Users/stephyu/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
@@ -414,13 +424,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					/Users/victor/Downloads,
+					/Users/stephyu/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
